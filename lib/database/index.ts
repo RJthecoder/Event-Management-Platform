@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 
-// const MONGODB_URI = 'mongodb+srv://jadhavranjitsingh561:<Ranjit1279>@raju.n6hddvn.mongodb.net/';
-const MONGODB_URI = 'mongodb+srv://jadhavranjitsingh561:Ranjit1279@raju.n6hddvn.mongodb.net/';
+// const MONGODB_URI = add your database link;
 
 
 let cached = (global as any).mongoose || { conn: null, promise: null };
